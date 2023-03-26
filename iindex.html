@@ -22,12 +22,46 @@
     <li class="listItem">Link 3</li>
     <li class="listItem">Link 4</li>
   </ul>
-  <div class="container">
-    <div id="pic1"><img class="image" src="images/vlcsnap-2022-12-29-18h51m56s326.png"></div>
-    <div id="pic2"><img class="image" src="images/vlcsnap-2023-01-14-13h03m50s639.png"></div>
-    <div id="pic3"><img class="image" src="images/vlcsnap-2023-01-14-13h04m15s017.png"></div>
-    <div id="pic4"><img class="image" src="images/vlcsnap-2023-01-14-18h24m02s588.png"></div>
-    <div id="pic5"><img class="image" src="images/vlcsnap-2023-01-27-18h42m25s396.png"></div>    
+   <!-- Slideshow container -->
+<div class="slideshow-container">
+
+  <!-- Full-width images with number and caption text -->
+  <div class="mySlides fade">
+    <div class="numbertext">1 / 4</div>
+    <img src="images/vlcsnap-2022-12-29-18h51m56s326.png" style="width:100%">
+    <div class="text">Caption Text</div>
   </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">2 / 4</div>
+    <img src="images/vlcsnap-2023-01-27-18h42m25s396.png" style="width:100%">
+    <div class="text">Caption Two</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">3 / 4</div>
+    <img src="images/vlcsnap-2023-01-14-18h24m02s588.png" style="width:100%" style="height:40vh">
+    <div class="text">Caption Three</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">4 / 4</div>
+    <img src="images/vlcsnap-2023-01-14-13h03m50s639.png" style=width:100%">
+    <div class="text">Caption Four</div>
+  </div>
+
+  <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+
+<!-- The dots/circles -->
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+  <span class="dot" onclick="currentSlide(4)"></span>
+</div> 
 </body>
 </html>
