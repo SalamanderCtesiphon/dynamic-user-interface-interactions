@@ -57,4 +57,12 @@
   height: 94vh;
   width: 100vw;
   overflow: hidden;
+  display: flex;
+  align-items: center;
+}
+
+.image {
+  height: 50vh;
+  width: 30vw;
+  margin: 10px;
 }
