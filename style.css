@@ -56,7 +56,7 @@
   border: 1px solid black;
   height: 94vh;
   width: 100vw;
-  overflow: hidden;
+  overflow: scroll;
   display: flex;
   align-items: center;
 }
