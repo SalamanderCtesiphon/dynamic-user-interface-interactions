@@ -14,15 +14,36 @@
 }
 
 #menu {
+  display: block;
   position: absolute;
-  right: 96vw;
+  right: 95vw;
   top: 1.4vh;
+  cursor: pointer;
   display: flex;
   flex-direction: column;
   justify-self: center;
   align-items: center;
   height: 3vh;
   width: 3vw;
+}
+
+.dropdown {
+  display: none;
+  background-color: grey;
+  overflow: visible;
+  color: white;
+  width: 5vw;
+  position: absolute;
+  right: 93vw;
+  top: 1.4vh;
+}
+
+.listItem {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  cursor: pointer;
 }
 
 #title {
