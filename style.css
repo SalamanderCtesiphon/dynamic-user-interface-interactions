@@ -2,4 +2,30 @@
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
+  font-family: 'Oswald', sans-serif;
+}
+
+.header {
+  display: flex;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.799);
+  height: 6vh;
+  width: 100vw;
+}
+
+#menu {
+  position: absolute;
+  right: 96vw;
+  top: 1.4vh;
+  display: flex;
+  flex-direction: column;
+  justify-self: center;
+  align-items: center;
+  height: 3vh;
+  width: 3vw;
+}
+
+#title {
+  position: absolute;
+  right: 45vw;
 }
